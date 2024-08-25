@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.39f1 (4e1b0f82c39a) revision 5118735'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 32694 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ru' Physical Memory: 16103 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\Versions\2022.3.39f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.39f1-x86_64\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/глеб/Documents/GitHub/Runner
+C:/Users/jenia/Documents/GitHub/RunnerCorrect/Runner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61495
-Successfully changed project path to: C:/Users/глеб/Documents/GitHub/Runner
-C:/Users/глеб/Documents/GitHub/Runner
+60534
+Successfully changed project path to: C:/Users/jenia/Documents/GitHub/RunnerCorrect/Runner
+C:/Users/jenia/Documents/GitHub/RunnerCorrect/Runner
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,71 @@ C:/Users/глеб/Documents/GitHub/Runner
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26732]  Target information:
+Player connection [99828]  Target information:
 
-Player connection [26732]  * "[IP] 192.168.178.70 [Port] 0 [Flags] 2 [Guid] 4202375012 [EditorId] 4202375012 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TD379BE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [99828]  * "[IP] 172.19.64.1 [Port] 0 [Flags] 2 [Guid] 336294271 [EditorId] 336294271 [Version] 1048832 [Id] WindowsEditor(7,creatik) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26732] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26732] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 10.87 ms, found 3 plugins.
+Player connection [99828]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 336294271 [EditorId] 336294271 [Version] 1048832 [Id] WindowsEditor(7,creatik) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [99828]  * "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 336294271 [EditorId] 336294271 [Version] 1048832 [Id] WindowsEditor(7,creatik) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [99828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [99828] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.39f1 (4e1b0f82c39a)
-[Subsystems] Discovering subsystems at path D:/Unity/Versions/2022.3.39f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/глеб/Documents/GitHub/Runner/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.39f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jenia/Documents/GitHub/RunnerCorrect/Runner/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
     VRAM:     7957 MB
     Driver:   32.0.15.6070
 Initialize mono
-Mono path[0] = 'D:/Unity/Versions/2022.3.39f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Versions/2022.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/Versions/2022.3.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Versions/2022.3.39f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/Versions/2022.3.39f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/Unity/Versions/2022.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005062 seconds.
-- Loaded All Assemblies, in  0.314 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006830 seconds.
+- Loaded All Assemblies, in  0.501 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 209 ms
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.514 seconds
-Domain Reload Profiling: 828ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 798ms
+	BeginReloadAssembly (205ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (97ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (203ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (144ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (514ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (299ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
+		SetupLoadedEditorAssemblies (235ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (301ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (111ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,1045 +121,59 @@ Domain Reload Profiling: 828ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.487 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.633 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.474 seconds
-Domain Reload Profiling: 960ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1237ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (230ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (109ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (474ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (347ms)
+		SetupLoadedEditorAssemblies (451ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (58.3 KB). Loaded Objects now: 3639.
-Memory consumption went from 135.3 MB to 135.2 MB.
-Total: 2.770100 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.383800 ms  DeleteObjects: 0.092700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 60723.623944 seconds.
-  path: Assets/KinematicCharacterController/APIReference.zip
-  artifactKey: Guid(aadf824e76564404c8d43d99803c60a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/APIReference.zip using Guid(aadf824e76564404c8d43d99803c60a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4bcbe66558b61b72082f1706e14ef1b2') in 0.066325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Bow/Materials/Trail.mat
-  artifactKey: Guid(e1a5cf59989f4844283fc507771c01b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Materials/Trail.mat using Guid(e1a5cf59989f4844283fc507771c01b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7ce140a440ad30a9c28ae102f6f2fcfa') in 0.080688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/StepTest2.fbx
-  artifactKey: Guid(528aba6b065f6b24f85b2da0c3a616c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/StepTest2.fbx using Guid(528aba6b065f6b24f85b2da0c3a616c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '39b4d10ab3089551651fcb689cb3f089') in 0.052945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/TriSlope4.fbx
-  artifactKey: Guid(a1fb5ad061b41ec4f88dee5615c25a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/TriSlope4.fbx using Guid(a1fb5ad061b41ec4f88dee5615c25a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cafdb500524e32a2d0c72da1e5967230') in 0.016529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Dark.mat
-  artifactKey: Guid(ac0fa2f3d7139704ba1ad516325833cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Dark.mat using Guid(ac0fa2f3d7139704ba1ad516325833cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9ef103309513928ed65ae7e230871ae3') in 0.010190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Grid200.mat
-  artifactKey: Guid(a6501adaf78814c43b95d27ec855fc02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Grid200.mat using Guid(a6501adaf78814c43b95d27ec855fc02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9dd04885f9b41258daac119a2a0868be') in 0.012700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bow/Models/BowArrow.FBX
-  artifactKey: Guid(51d9724ed8eeaa842afb238676414986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Models/BowArrow.FBX using Guid(51d9724ed8eeaa842afb238676414986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd4014803b79645dbfe2e08130c2d4d4f') in 0.013973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bow/Audio/BowTension.wav
-  artifactKey: Guid(c9b3da1de0e899847a074adbbd89b291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Audio/BowTension.wav using Guid(c9b3da1de0e899847a074adbbd89b291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '41c7bac13218c3b46e444606f3f39699') in 0.033941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bow/Materials/Materials/Back.mat
-  artifactKey: Guid(9760db940e7d35846a10a07b6bc1f4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Materials/Materials/Back.mat using Guid(9760db940e7d35846a10a07b6bc1f4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd63af1fa28396970770709e2c3f05756') in 0.051695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Bow/Models/Bow.FBX
-  artifactKey: Guid(8b9f4309f61024c4a9e3961c01ffb03f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Models/Bow.FBX using Guid(8b9f4309f61024c4a9e3961c01ffb03f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'af1014acc95fb04c9b1eb1d47905472b') in 0.022142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Green.mat
-  artifactKey: Guid(83b277cab1b0a6146b3877fdc32581fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Green.mat using Guid(83b277cab1b0a6146b3877fdc32581fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '36ff142bf74047d047aa93d65271718f') in 0.009750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KinematicCharacterController/Core/Editor/KinematicCharacterMotorEditor.cs
-  artifactKey: Guid(7db3ed6d74cbf2b489cab5e1586bed7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Core/Editor/KinematicCharacterMotorEditor.cs using Guid(7db3ed6d74cbf2b489cab5e1586bed7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b996c3ea4cfe6ea269ebcf333630f224') in 0.011628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/KinematicCharacterController/Examples/Scripts/PlanetManager.cs
-  artifactKey: Guid(e89f443ce54ba1e469d5dd7141034d04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Scripts/PlanetManager.cs using Guid(e89f443ce54ba1e469d5dd7141034d04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '28990ff3329494c10010cf152da6d3c9') in 0.011586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/ExampleCharacter/Prefabs/ExampleCharacter.prefab
-  artifactKey: Guid(d295472d4ce25404e9aed2627c34801f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/ExampleCharacter/Prefabs/ExampleCharacter.prefab using Guid(d295472d4ce25404e9aed2627c34801f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '76d2cc658c15fafee7502b54f4f2bab7') in 0.046140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/KinematicCharacterController/Core/KinematicCharacterMotor.cs
-  artifactKey: Guid(4d1bc5515e3ab954e80599c538834774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Core/KinematicCharacterMotor.cs using Guid(4d1bc5515e3ab954e80599c538834774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5098c41c7852229ebf3459f51c2b0b18') in 0.010788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Grid20.mat
-  artifactKey: Guid(362a6030a4cf94047aea778b2ee3f1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Grid20.mat using Guid(362a6030a4cf94047aea778b2ee3f1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '39778a6ae59b3cad857490e66d4fd04d') in 0.010111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Examples/Scripts/PrefabLauncher.cs
-  artifactKey: Guid(a743ceeddb93f0e4981433a18d793f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Scripts/PrefabLauncher.cs using Guid(a743ceeddb93f0e4981433a18d793f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd4aef00c74ca4a4f22bcd22f0086f069') in 0.011740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scripts/Weapon/Weapon.cs
-  artifactKey: Guid(b2130b51a8bb2dd48a588a7543d6aa77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Weapon/Weapon.cs using Guid(b2130b51a8bb2dd48a588a7543d6aa77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7ff86ef361048eb069d813edc8fad2f3') in 0.010419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/1- Player Camera Character Setup/Scene/WalkthroughScene1.unity
-  artifactKey: Guid(51116ce509f204c439bf161c3492f5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/1- Player Camera Character Setup/Scene/WalkthroughScene1.unity using Guid(51116ce509f204c439bf161c3492f5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd9f3c0f69127882d8c95399730cb91f6') in 0.009017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Examples/Scripts/BuildManager.cs
-  artifactKey: Guid(4f83a0772ca2f284c97e6c2e3b8b6c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Scripts/BuildManager.cs using Guid(4f83a0772ca2f284c97e6c2e3b8b6c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '117c631886c3e43ddabee56ac027ee43') in 0.009533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/ring.fbx
-  artifactKey: Guid(94c29bfdbb24c4e45a3bc0982aedb13b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/ring.fbx using Guid(94c29bfdbb24c4e45a3bc0982aedb13b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '372efc288d464d637f61c661248c3e32') in 0.017779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/10- Multiple movement states setup/Scripts/MyPlayer.cs
-  artifactKey: Guid(7bad51a62556c6f4692fd8537d6e2c20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/10- Multiple movement states setup/Scripts/MyPlayer.cs using Guid(7bad51a62556c6f4692fd8537d6e2c20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9942f59154de879a75cfcfe003f1c0a2') in 0.008032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/7- Orienting towards arbitrary up direction/Scripts/MyCharacterController.cs
-  artifactKey: Guid(a5897ffdcb56cb34fad7242e28bb068f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/7- Orienting towards arbitrary up direction/Scripts/MyCharacterController.cs using Guid(a5897ffdcb56cb34fad7242e28bb068f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c90fe30eeaca99864b313a98cbd6aab6') in 0.012466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scene/WalkthroughScene3.unity
-  artifactKey: Guid(10d8a9820a4bc8641b664104d8ab9b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scene/WalkthroughScene3.unity using Guid(10d8a9820a4bc8641b664104d8ab9b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3e1ab1e3512db1a7cefbea5db7131a71') in 0.007979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/6- Crouching/Scene/WalkthroughScene6.unity
-  artifactKey: Guid(5cf941e64de8d2f4db87a028ca727a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/6- Crouching/Scene/WalkthroughScene6.unity using Guid(5cf941e64de8d2f4db87a028ca727a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '70351940931d05401cce0d3a08c3bc03') in 0.007231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/ConcaveSteps.fbx
-  artifactKey: Guid(ea44a31176a10784b9002ca976fea196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/ConcaveSteps.fbx using Guid(ea44a31176a10784b9002ca976fea196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '468e0fb507922ea7ca5cd0d848b80f8b') in 0.017334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Materials/asdasd.mat
-  artifactKey: Guid(25bfede19ee547e418648adb828ddb0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/asdasd.mat using Guid(25bfede19ee547e418648adb828ddb0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4668b50b752131881cee243b36fec9c4') in 0.010766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KinematicCharacterController/Examples/Scenes/CharacterPlayground/LightingData.asset
-  artifactKey: Guid(8d5e47f38d51cb74fa17964969eea766) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Scenes/CharacterPlayground/LightingData.asset using Guid(8d5e47f38d51cb74fa17964969eea766) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '65a26719bc4a2bcfb55d76291bf7547c') in 0.010253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Examples/Scripts/ExampleMovingPlatform.cs
-  artifactKey: Guid(b7edc6957dab9ac4797c1c0912ce3839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Scripts/ExampleMovingPlatform.cs using Guid(b7edc6957dab9ac4797c1c0912ce3839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fe55846a83fb498bf04507d01e927050') in 0.010509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/ConcaveCorridor.fbx
-  artifactKey: Guid(2b7ce2fb71ab23245a79364c94a76c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/ConcaveCorridor.fbx using Guid(2b7ce2fb71ab23245a79364c94a76c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6ba0927e9f1507a7560f8405bba6a3ea') in 0.017949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scripts/MyPlayer.cs
-  artifactKey: Guid(0d329db918ea3e246adc0bfc1079c749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scripts/MyPlayer.cs using Guid(0d329db918ea3e246adc0bfc1079c749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f10916e7c53159ad0fb1c49072fbd879') in 0.009225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/ExampleCharacter/Prefabs/ExampleCamera.prefab
-  artifactKey: Guid(c75e91cf060bbf04e89204fa400606df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/ExampleCharacter/Prefabs/ExampleCamera.prefab using Guid(c75e91cf060bbf04e89204fa400606df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6ef8fa1a025b358fdc034e24203a4176') in 0.026329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Examples/Prefabs/DynamicCube.prefab
-  artifactKey: Guid(10c808cfbee7a32428c98c49e3fd5643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Prefabs/DynamicCube.prefab using Guid(10c808cfbee7a32428c98c49e3fd5643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '165d769da8d07a794cceb74c0ad5f15e') in 0.016150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/4- Landing and leaving ground/Scripts/MyCharacterController.cs
-  artifactKey: Guid(df091ad91c1a6844b87fb18b9188f06d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/4- Landing and leaving ground/Scripts/MyCharacterController.cs using Guid(df091ad91c1a6844b87fb18b9188f06d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8356a67fa079567de72f09e388d7321a') in 0.010332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/5- Adding velocities and impulses/Scene/WalkthroughScene5.unity
-  artifactKey: Guid(72f69ede5f46b3346a594a903a529a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/5- Adding velocities and impulses/Scene/WalkthroughScene5.unity using Guid(72f69ede5f46b3346a594a903a529a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7e9081e09f115ddd488d8044dc232e64') in 0.008747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/11- Charging state/Scene/WalkthroughScene11.unity
-  artifactKey: Guid(080c10a3703549c47b115b24b77e16ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/11- Charging state/Scene/WalkthroughScene11.unity using Guid(080c10a3703549c47b115b24b77e16ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '38f5261ae7da8aea90027da5f7093324') in 0.009769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Examples/Textures/tile.png
-  artifactKey: Guid(e2571d7568539cd489b45b0927fd895b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Textures/tile.png using Guid(e2571d7568539cd489b45b0927fd895b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '37cc8d1b3ce1e519a68b21b07157e5d1') in 0.040616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/tile_green.mat
-  artifactKey: Guid(23e3b7ca47e071348bb2ec2a2bbabe75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/tile_green.mat using Guid(23e3b7ca47e071348bb2ec2a2bbabe75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a21da24b64b68a938c24954bbc0ad880') in 0.009175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Examples/Textures/tile_green.png
-  artifactKey: Guid(36b5b147a1e526747bad753e77aa33c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Textures/tile_green.png using Guid(36b5b147a1e526747bad753e77aa33c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2c067908972a5cdc8769749d7223d548') in 0.015041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/ComplexShape.fbx
-  artifactKey: Guid(8ff8d641e32922b46af689259eba176b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/ComplexShape.fbx using Guid(8ff8d641e32922b46af689259eba176b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1ff3370d1d233ebd5da4a8815790247c') in 0.020817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/StepTest1.fbx
-  artifactKey: Guid(1e5829d00378bbb488aff5a4a8bfbadb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/StepTest1.fbx using Guid(1e5829d00378bbb488aff5a4a8bfbadb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '003e57f9ede2c50f76e7f298acd2e3d5') in 0.017820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/KinematicCharacterController/Core/ReadOnlyAttribute.cs
-  artifactKey: Guid(63e8828991cf67f42bfeb498686aad0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Core/ReadOnlyAttribute.cs using Guid(63e8828991cf67f42bfeb498686aad0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '02bcf8464b236347b2f1d4310295cd70') in 0.009593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/KinematicCharacterController/Examples/Scripts/Teleporter.cs
-  artifactKey: Guid(d9b74e337ef86d944adf66d1906f11e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Scripts/Teleporter.cs using Guid(d9b74e337ef86d944adf66d1906f11e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1e062741e0aca26590e39b0e6fe4334f') in 0.009460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Bow/Audio/ArrowWhistling.wav
-  artifactKey: Guid(c11134c119ac8e244b43cb3672d0eaf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Audio/ArrowWhistling.wav using Guid(c11134c119ac8e244b43cb3672d0eaf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '76fa6f64d6296c682c8e09f94dc70ced') in 0.025524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KinematicCharacterController/Core/ICharacterController.cs
-  artifactKey: Guid(f13aa252bd3bf9943b1d65e68d93dcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Core/ICharacterController.cs using Guid(f13aa252bd3bf9943b1d65e68d93dcfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9d5eceb2a924b6a7c0fbbd6c4c1b4645') in 0.010861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scene/WalkthroughScene14.unity
-  artifactKey: Guid(99217385d36556848a4019cc1e7fa0d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scene/WalkthroughScene14.unity using Guid(99217385d36556848a4019cc1e7fa0d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c6de08c4cee5f10a8f1a9d51dc4dac6f') in 0.008988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scenes/CharacterPlayground.unity
-  artifactKey: Guid(49c21577d8fcba049bf2f94ab33e2dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/CharacterPlayground.unity using Guid(49c21577d8fcba049bf2f94ab33e2dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b88601556eb57fd965d7ad91871d27db') in 0.008514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scripts/MyCharacterController.cs
-  artifactKey: Guid(8d44422eef151e74c8387f4da8838cf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scripts/MyCharacterController.cs using Guid(8d44422eef151e74c8387f4da8838cf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e840e026f3a68ed69032505648e618fd') in 0.011598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Orange.mat
-  artifactKey: Guid(cdd98aff9e51e5b4c9f98f2d337d0fb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Orange.mat using Guid(cdd98aff9e51e5b4c9f98f2d337d0fb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b99fdc3af50c477667fc86d172e09c2a') in 0.012059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Water.mat
-  artifactKey: Guid(1625f63737c872043b06db73c8670208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Water.mat using Guid(1625f63737c872043b06db73c8670208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8b142ca0cd8d001964649f6e959d5438') in 0.039038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/2- Basic Movement and Gravity/Scene/WalkthroughScene2.unity
-  artifactKey: Guid(b93d989c225d3c141837b9502077ea4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/2- Basic Movement and Gravity/Scene/WalkthroughScene2.unity using Guid(b93d989c225d3c141837b9502077ea4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '698f4d82c4f801865ff03e6feee0711e') in 0.011598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Sky.mat
-  artifactKey: Guid(10a503df4c24e194b936fc9ce33f55a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Sky.mat using Guid(10a503df4c24e194b936fc9ce33f55a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '011abb2b8cf63114daebc8d0a5edaa78') in 0.012276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Examples/Prefabs/MovingPlatform (3).prefab
-  artifactKey: Guid(21942bc8bd928e949a81a4291e63b4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Prefabs/MovingPlatform (3).prefab using Guid(21942bc8bd928e949a81a4291e63b4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '02155a997d60cc17ab84df1c9cca7c23') in 0.016343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/5- Adding velocities and impulses/Scripts/MyPlayer.cs
-  artifactKey: Guid(0d61a6c592b89654bb126e173fa60ab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/5- Adding velocities and impulses/Scripts/MyPlayer.cs using Guid(0d61a6c592b89654bb126e173fa60ab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a9fbcaa6cc457ae2f374aa160fad351') in 0.009968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Examples/PhysicsMaterials/TestCube.physicMaterial
-  artifactKey: Guid(f0505dac8956a604486b9c9cfed32c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/PhysicsMaterials/TestCube.physicMaterial using Guid(f0505dac8956a604486b9c9cfed32c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '986270fde1b7196308e4caf11d41c266') in 0.010494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/9- Custom collision filtering/Scene/WalkthroughScene9.unity
-  artifactKey: Guid(8cc49b03a1094994ebd78092eb7b94d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/9- Custom collision filtering/Scene/WalkthroughScene9.unity using Guid(8cc49b03a1094994ebd78092eb7b94d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4c041c4e52af8e6c33bb4b8c213e98ce') in 0.009113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/7- Orienting towards arbitrary up direction/Scene/WalkthroughScene7/ReflectionProbe-0.exr
-  artifactKey: Guid(b6a45624d7d32844b8bb269ec7827a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/7- Orienting towards arbitrary up direction/Scene/WalkthroughScene7/ReflectionProbe-0.exr using Guid(b6a45624d7d32844b8bb269ec7827a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f4867a8e4def661e1c60b9b9a7d8e988') in 0.020032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scripts/MyPlayer.cs
-  artifactKey: Guid(e655bfd11ef2b5f4785511618a4d6e48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scripts/MyPlayer.cs using Guid(e655bfd11ef2b5f4785511618a4d6e48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '32f95c3f0778bece56e9728e4419c8db') in 0.009853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/12- NoClip state/Scene/WalkthroughScene12/LightingData.asset
-  artifactKey: Guid(eeeef78adc5f0f948ae5ce452c42d9bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/12- NoClip state/Scene/WalkthroughScene12/LightingData.asset using Guid(eeeef78adc5f0f948ae5ce452c42d9bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9bbeaef13ea71b0b3d4c7a34319224b1') in 0.010543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Models/Ethan.fbx
-  artifactKey: Guid(b235179bd2a63d1468dd430670338c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Models/Ethan.fbx using Guid(b235179bd2a63d1468dd430670338c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5642a3e5e45618dfe2966e4473194be1') in 0.024720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 176
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/13- Swimming state/Scene/WalkthroughScene13/LightingData.asset
-  artifactKey: Guid(ad04f42b5c282df45b6cb76c9d5d0ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/13- Swimming state/Scene/WalkthroughScene13/LightingData.asset using Guid(ad04f42b5c282df45b6cb76c9d5d0ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ae55a4089232e4bec31d3ae0650241e7') in 0.010616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scene/WalkthroughScene8/ReflectionProbe-0.exr
-  artifactKey: Guid(fbf7b294135fc4249a3b96454a47202f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scene/WalkthroughScene8/ReflectionProbe-0.exr using Guid(fbf7b294135fc4249a3b96454a47202f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0b74d29521bfb872013a793c282c62e8') in 0.016226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/9- Custom collision filtering/Scene/WalkthroughScene9/LightingData.asset
-  artifactKey: Guid(0e66b3ac85745e6499de4d690f8f71fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/9- Custom collision filtering/Scene/WalkthroughScene9/LightingData.asset using Guid(0e66b3ac85745e6499de4d690f8f71fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bf1cc2d7a152243bef7f52fc6bfa0927') in 0.009447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scripts/MyCharacterController.cs
-  artifactKey: Guid(4090afa9dd8ffc54ca975f9e29324797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scripts/MyCharacterController.cs using Guid(4090afa9dd8ffc54ca975f9e29324797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '265abf589b229542a68b077c21142ed7') in 0.009561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/10- Multiple movement states setup/Scene/WalkthroughScene10/LightingData.asset
-  artifactKey: Guid(dcd109c9b01494f49b5a633a2a184afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/10- Multiple movement states setup/Scene/WalkthroughScene10/LightingData.asset using Guid(dcd109c9b01494f49b5a633a2a184afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '66a5a20362dd8e4b7bab6c7d80439afd') in 0.010435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidIdle.fbx
-  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidIdle.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f2f0eb8428c5ae02352913e493283d68') in 0.024106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 157
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scene/WalkthroughScene16/ReflectionProbe-0.exr
-  artifactKey: Guid(c733e3c15e7ba85459a07eb54383f06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scene/WalkthroughScene16/ReflectionProbe-0.exr using Guid(c733e3c15e7ba85459a07eb54383f06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c8a21018ec8ee92ff861d1c3c073fb5a') in 0.013502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/Scene/WalkthroughScene15/ReflectionProbe-0.exr
-  artifactKey: Guid(34f807ae1d1a50d4f8bee7f51ea51083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/Scene/WalkthroughScene15/ReflectionProbe-0.exr using Guid(34f807ae1d1a50d4f8bee7f51ea51083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '68e8d9bc567f972c218236250882ecbe') in 0.016155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/5- Adding velocities and impulses/Scene/WalkthroughScene5/LightingData.asset
-  artifactKey: Guid(81aaaad5c637dc74abb08eb1fd28486d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/5- Adding velocities and impulses/Scene/WalkthroughScene5/LightingData.asset using Guid(81aaaad5c637dc74abb08eb1fd28486d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3aa431e96588633575629fe51b426e8e') in 0.010947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scripts/c- Wall Jumping/MyPlayer.cs
-  artifactKey: Guid(5ab774effe3d22149bec95ad5454a24c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scripts/c- Wall Jumping/MyPlayer.cs using Guid(5ab774effe3d22149bec95ad5454a24c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '26dde7a3f170c74a4f51d88a7af30757') in 0.010305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidIdleJumpUp.fbx
-  artifactKey: Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidIdleJumpUp.fbx using Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1106afb6e0fe974597474cba04d7688c') in 0.032934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 182
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/2- Basic Movement and Gravity/Scene/WalkthroughScene2/LightingData.asset
-  artifactKey: Guid(a65e3f16c38320a4bba2126c16e91a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/2- Basic Movement and Gravity/Scene/WalkthroughScene2/LightingData.asset using Guid(a65e3f16c38320a4bba2126c16e91a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'db40422343bebbafdbc05ab0aa22065a') in 0.009837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidMidAir.fbx
-  artifactKey: Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidMidAir.fbx using Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4c38ad54a042b0c1a516ae02f05539a1') in 0.021911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 184
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidCrouch.fbx
-  artifactKey: Guid(d89ea37480b6d75458aa38843e9688dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidCrouch.fbx using Guid(d89ea37480b6d75458aa38843e9688dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bfedd1e5d83ebf0cc414c6355ec2653c') in 0.033724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scene/WalkthroughScene14/ReflectionProbe-0.exr
-  artifactKey: Guid(b0adf4a148ffe70438e744834048a5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scene/WalkthroughScene14/ReflectionProbe-0.exr using Guid(b0adf4a148ffe70438e744834048a5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e62e99d449ddd1d3c30f36bb44ed6164') in 0.016986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scripts/c- Wall Jumping/MyCharacterController.cs
-  artifactKey: Guid(2fd76c082aede85429438d24ce95942c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scripts/c- Wall Jumping/MyCharacterController.cs using Guid(2fd76c082aede85429438d24ce95942c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78087127cd245cfb1ac09e3c4a2db280') in 0.009872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scene/WalkthroughScene14/LightingData.asset
-  artifactKey: Guid(bd0fdcc34d728ac4db527844b498d09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/14- Climbing Ladders/Scene/WalkthroughScene14/LightingData.asset using Guid(bd0fdcc34d728ac4db527844b498d09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6088c58565963304348c2432aed9f018') in 0.010740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/11- Charging state/Scene/WalkthroughScene11/ReflectionProbe-0.exr
-  artifactKey: Guid(bfe22d4c784ad9e47a9cdd1582da2c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/11- Charging state/Scene/WalkthroughScene11/ReflectionProbe-0.exr using Guid(bfe22d4c784ad9e47a9cdd1582da2c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '83aed483b002dc7ff2aaa339188f884b') in 0.013971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/Scene/WalkthroughScene15/LightingData.asset
-  artifactKey: Guid(4ed290e0c46385647a16a389e80c5b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/Scene/WalkthroughScene15/LightingData.asset using Guid(4ed290e0c46385647a16a389e80c5b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '561b5aaf8f89474f5f5bfb8c78fe1643') in 0.010823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scripts/MyMovingPlatform.cs
-  artifactKey: Guid(0b6a0daf518d7f54f913855065b51001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/Scripts/MyMovingPlatform.cs using Guid(0b6a0daf518d7f54f913855065b51001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '001f6a0a60cd63abd26258db506a933a') in 0.010404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scripts/Weapon/Bow/ArrowPool.cs
-  artifactKey: Guid(29f91d972d0e66448adec0f44a29c6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Weapon/Bow/ArrowPool.cs using Guid(29f91d972d0e66448adec0f44a29c6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3810d900c8bf1fffa4741814d30f88cf') in 0.011097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.005858 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidWalkTurn.fbx
-  artifactKey: Guid(1c52c953c83c2254a9fa72d50250f028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidWalkTurn.fbx using Guid(1c52c953c83c2254a9fa72d50250f028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fbff5a8a0e00066c43c60a1337c7cfa8') in 0.020164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 158
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Examples/Materials/Light.mat
-  artifactKey: Guid(3c9ad66f585bfb341b5f346a1ebd06b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Materials/Light.mat using Guid(3c9ad66f585bfb341b5f346a1ebd06b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c520e59f13c3b719eec44491819b244d') in 0.009551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Examples/Models/BigMesh.fbx
-  artifactKey: Guid(7b3263440d2fce2469af539f2ea112d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Examples/Models/BigMesh.fbx using Guid(7b3263440d2fce2469af539f2ea112d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fa99d02d6fbe7ae76e0e30d980137d14') in 0.022003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/12- NoClip state/Scripts/MyPlayer.cs
-  artifactKey: Guid(04d7db6fb3ef0f548bf93754f0bbe224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/12- NoClip state/Scripts/MyPlayer.cs using Guid(04d7db6fb3ef0f548bf93754f0bbe224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bac1d525061c2799efee4ca301e10740') in 0.012708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scripts/a- Simple Jumping/MyPlayer.cs
-  artifactKey: Guid(c2f934d74d9c62e409691089041cc749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scripts/a- Simple Jumping/MyPlayer.cs using Guid(c2f934d74d9c62e409691089041cc749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '997e947cfd6213e3949ecebd18a1d69c') in 0.012746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scene/WalkthroughScene3/LightingData.asset
-  artifactKey: Guid(9a0121041686b2045a832bb37b8cb164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/3- Jumping/Scene/WalkthroughScene3/LightingData.asset using Guid(9a0121041686b2045a832bb37b8cb164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b3359c263584095e9d5a874be15eb064') in 0.008481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scripts/MyCharacterController.cs
-  artifactKey: Guid(e02114dc2e1293b4f8244608a11fd813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scripts/MyCharacterController.cs using Guid(e02114dc2e1293b4f8244608a11fd813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ae82af28f27a794303b2277752c4ee59') in 0.009297 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/9- Custom collision filtering/Scene/WalkthroughScene9/ReflectionProbe-0.exr
-  artifactKey: Guid(5fc3e69c31cba1f438f44440dd8e4dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/9- Custom collision filtering/Scene/WalkthroughScene9/ReflectionProbe-0.exr using Guid(5fc3e69c31cba1f438f44440dd8e4dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f8cc656eea71b93e78ea867e0e601ad2') in 0.013187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Bow/Models/Tree.FBX
-  artifactKey: Guid(d99082c2a05485e40b85926f9016c039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Models/Tree.FBX using Guid(d99082c2a05485e40b85926f9016c039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0942e5c0a6eadbf1fe78fa0aeb5b49df') in 0.017325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/12- NoClip state/Scene/WalkthroughScene12.unity
-  artifactKey: Guid(4c51b3a6a6cbf9e478da8e6dc6e68697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/12- NoClip state/Scene/WalkthroughScene12.unity using Guid(4c51b3a6a6cbf9e478da8e6dc6e68697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f0eae5e515444f5b4117a461599aa41f') in 0.012399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scene/WalkthroughScene16/LightingData.asset
-  artifactKey: Guid(4ed041c1c0909eb41a79b0d908f018f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/16- FramePerfect Rotation/Scene/WalkthroughScene16/LightingData.asset using Guid(4ed041c1c0909eb41a79b0d908f018f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b8d0877181c57934c08ea5eba60ec661') in 0.010561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/6- Crouching/Scripts/MyPlayer.cs
-  artifactKey: Guid(7ee0baee98708fb428704385c47f518e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/6- Crouching/Scripts/MyPlayer.cs using Guid(7ee0baee98708fb428704385c47f518e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c67d0707bdff69d112395e9878bea087') in 0.009526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidStandTurn.fbx
-  artifactKey: Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidStandTurn.fbx using Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd00dfbe00a73c53fef78630be03a67b0') in 0.026515 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 160
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Bow/Models/Materials/Bow.mat
-  artifactKey: Guid(7646f46ae0d18a741bd2092d5919cd5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Models/Materials/Bow.mat using Guid(7646f46ae0d18a741bd2092d5919cd5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4e0b985575cb974bb9785c92a0d77d51') in 0.011768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bow/Materials/Env.mat
-  artifactKey: Guid(4c5ff39aa64a44043a1f446a4268204f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Bow/Materials/Env.mat using Guid(4c5ff39aa64a44043a1f446a4268204f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'dbe56e267e0103ceb84a6d4ccb839225') in 0.009203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/MovingPlatformTimeline.playable
-  artifactKey: Guid(4c496c870871c1a4faf9ac8d4540bcc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/8- Creating a moving platform/MovingPlatformTimeline.playable using Guid(4c496c870871c1a4faf9ac8d4540bcc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '27f131cff744333005fa9b6ae39a9167') in 0.020231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/6- Crouching/Scene/WalkthroughScene6/ReflectionProbe-0.exr
-  artifactKey: Guid(7845e0b558d50c041b91b4794f8d3d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/6- Crouching/Scene/WalkthroughScene6/ReflectionProbe-0.exr using Guid(7845e0b558d50c041b91b4794f8d3d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e8028b3addd5bc9c672308c5bcde6d70') in 0.013811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Textures/EthanNormals.png
-  artifactKey: Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Textures/EthanNormals.png using Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '267ac6716355909492875495a7ed364f') in 0.036966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidRunTurn.fbx
-  artifactKey: Guid(1062212255550964e974f3ffb3cbaae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/15- Root motion example/EthanCharacter/Animation/HumanoidRunTurn.fbx using Guid(1062212255550964e974f3ffb3cbaae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3e1a34f942064e2bd26d72c6575e6722') in 0.025941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 184
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/13- Swimming state/Scripts/MyPlayer.cs
-  artifactKey: Guid(4713c253e1b718441b5183e3e7a50f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/13- Swimming state/Scripts/MyPlayer.cs using Guid(4713c253e1b718441b5183e3e7a50f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'abb58094046be510772ce4c119445b0b') in 0.010606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KinematicCharacterController/Walkthrough/4- Landing and leaving ground/Scene/WalkthroughScene4/LightingData.asset
-  artifactKey: Guid(ecf68cddd6f1b8a479a131105e9c5686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/KinematicCharacterController/Walkthrough/4- Landing and leaving ground/Scene/WalkthroughScene4/LightingData.asset using Guid(ecf68cddd6f1b8a479a131105e9c5686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f7fa559954d6ffbc72387e7cfdcdf232') in 0.012391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.358 seconds
-Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.755 seconds
-Domain Reload Profiling: 1112ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (159ms)
-		LoadAssemblies (214ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (756ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (349ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (246ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (351ms)
 			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3645.
-Memory consumption went from 132.7 MB to 132.7 MB.
-Total: 3.209600 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.188500 ms MarkObjects: 2.705800 ms  DeleteObjects: 0.052500 ms)
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (58.0 KB). Loaded Objects now: 3635.
+Memory consumption went from 130.7 MB to 130.7 MB.
+Total: 3.768800 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.085800 ms MarkObjects: 3.366100 ms  DeleteObjects: 0.106900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -1172,3 +185,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 712179.615628 seconds.
+  path: Assets/Scenes/CharacterPlayground.unity
+  artifactKey: Guid(49c21577d8fcba049bf2f94ab33e2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CharacterPlayground.unity using Guid(49c21577d8fcba049bf2f94ab33e2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1ab1ac248a21a8d485ab64cfef3c22c5') in 0.003516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
