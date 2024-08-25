@@ -255,13 +255,13 @@ GameObject:
   - component: {fileID: 51112131}
   - component: {fileID: 51112130}
   - component: {fileID: 51112129}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &51112128
 Transform:
   m_ObjectHideFlags: 0
@@ -840,13 +840,13 @@ GameObject:
   - component: {fileID: 158514161}
   - component: {fileID: 158514160}
   - component: {fileID: 158514159}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &158514158
 Transform:
   m_ObjectHideFlags: 0
@@ -2274,13 +2274,13 @@ GameObject:
   - component: {fileID: 461887684}
   - component: {fileID: 461887683}
   - component: {fileID: 461887682}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &461887681
 Transform:
   m_ObjectHideFlags: 0
@@ -3305,13 +3305,13 @@ GameObject:
   - component: {fileID: 560807464}
   - component: {fileID: 560807462}
   - component: {fileID: 560807468}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &560807462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5000,13 +5000,13 @@ GameObject:
   - component: {fileID: 799949546}
   - component: {fileID: 799949545}
   - component: {fileID: 799949544}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &799949543
 Transform:
   m_ObjectHideFlags: 0
@@ -5142,7 +5142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819882089}
   - component: {fileID: 819882090}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: BowTension
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6307,13 +6307,13 @@ GameObject:
   - component: {fileID: 972825028}
   - component: {fileID: 972825027}
   - component: {fileID: 972825026}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &972825025
 Transform:
   m_ObjectHideFlags: 0
@@ -6686,13 +6686,13 @@ GameObject:
   - component: {fileID: 1034007963}
   - component: {fileID: 1034007962}
   - component: {fileID: 1034007961}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1034007960
 Transform:
   m_ObjectHideFlags: 0
@@ -7732,13 +7732,13 @@ GameObject:
   - component: {fileID: 1126067815}
   - component: {fileID: 1126067814}
   - component: {fileID: 1126067813}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1126067812
 Transform:
   m_ObjectHideFlags: 0
@@ -7997,13 +7997,13 @@ GameObject:
   - component: {fileID: 1179404628}
   - component: {fileID: 1179404627}
   - component: {fileID: 1179404626}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1179404625
 Transform:
   m_ObjectHideFlags: 0
@@ -8262,13 +8262,13 @@ GameObject:
   - component: {fileID: 1209188615}
   - component: {fileID: 1209188614}
   - component: {fileID: 1209188613}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1209188612
 Transform:
   m_ObjectHideFlags: 0
@@ -8653,13 +8653,13 @@ GameObject:
   - component: {fileID: 1267657226}
   - component: {fileID: 1267657225}
   - component: {fileID: 1267657224}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1267657223
 Transform:
   m_ObjectHideFlags: 0
@@ -9600,13 +9600,13 @@ GameObject:
   - component: {fileID: 1491856336}
   - component: {fileID: 1491856335}
   - component: {fileID: 1491856334}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1491856333
 Transform:
   m_ObjectHideFlags: 0
@@ -11480,7 +11480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1781752288}
   - component: {fileID: 1781752289}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: ArrowWhistling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12408,13 +12408,13 @@ GameObject:
   - component: {fileID: 1898261476}
   - component: {fileID: 1898261475}
   - component: {fileID: 1898261474}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1898261473
 Transform:
   m_ObjectHideFlags: 0
@@ -12554,13 +12554,13 @@ GameObject:
   - component: {fileID: 1900916044}
   - component: {fileID: 1900916043}
   - component: {fileID: 1900916042}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1900916041
 Transform:
   m_ObjectHideFlags: 0
@@ -13015,13 +13015,13 @@ GameObject:
   - component: {fileID: 1944975119}
   - component: {fileID: 1944975118}
   - component: {fileID: 1944975117}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BowArrow (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1944975116
 Transform:
   m_ObjectHideFlags: 0
@@ -13801,19 +13801,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 8b9f4309f61024c4a9e3961c01ffb03f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 8b9f4309f61024c4a9e3961c01ffb03f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 8b9f4309f61024c4a9e3961c01ffb03f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 8b9f4309f61024c4a9e3961c01ffb03f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b9f4309f61024c4a9e3961c01ffb03f, type: 3}
       propertyPath: m_RootOrder
@@ -14697,7 +14697,7 @@ GameObject:
   - component: {fileID: 5543738659990719153}
   - component: {fileID: 5509052267740542277}
   - component: {fileID: 5530455799321397187}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: ExampleCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -14877,7 +14877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6505238199867825826}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: CameraTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14895,7 +14895,7 @@ GameObject:
   - component: {fileID: 6509974958177145226}
   - component: {fileID: 6494857619134773080}
   - component: {fileID: 6486330055653890480}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14915,7 +14915,7 @@ GameObject:
   - component: {fileID: 6611558534064293502}
   - component: {fileID: 6615662580611611646}
   - component: {fileID: 6508550501183087757}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: ExampleCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14960,7 +14960,7 @@ GameObject:
   - component: {fileID: 6505053525447303538}
   - component: {fileID: 6494253160521964946}
   - component: {fileID: 6486640052250702382}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14976,7 +14976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6510422302040278518}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Meshes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15009,7 +15009,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6509949385530125624}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
