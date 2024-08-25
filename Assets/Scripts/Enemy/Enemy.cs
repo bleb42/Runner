@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _chaseSpeed = 2f;
     [SerializeField] private float _patrolWaitTime = 3f;
     [SerializeField] private Transform[] _targetPositions;
-    [SerializeField] private float _minimumDistanceToStop = 0.1f; // Adjust for stopping precision
+    [SerializeField] private float _minimumDistanceToStop = 0.1f;
     private NavMeshAgent _agent;
     public bool IsHavePatron = false;
     private bool _isChasingPlayer = false; 
