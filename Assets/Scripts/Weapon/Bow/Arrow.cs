@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -30,6 +30,7 @@ public class Arrow : MonoBehaviour {
         {
             transform.SetParent(enemy.transform);
             Debug.Log(Convert.ToInt32(_damage));
+            enemy.EnemyHp -= _damage;
         }
 
         _collider.enabled = false;
