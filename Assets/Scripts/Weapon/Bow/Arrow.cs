@@ -30,6 +30,7 @@ public class Arrow : MonoBehaviour {
         {
             transform.SetParent(enemy.transform);
             Debug.Log(Convert.ToInt32(_damage));
+            enemy.IsHavePatron = true;
             enemy.EnemyHp -= _damage;
         }
 

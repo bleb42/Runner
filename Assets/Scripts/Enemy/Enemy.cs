@@ -38,10 +38,16 @@ public class Enemy : MonoBehaviour
     }
     private void Update()
     {
-        if (enemy != null && enemy.IfSeenYou && !_isChasingPlayer || IsHavePatron == true)  
+        Debug.Log(IsHavePatron);
+        if (enemy != null && enemy.IfSeenYou && !_isChasingPlayer)  
         {
             _isChasingPlayer = true;
             StartCoroutine(ChasePlayer());
+        }
+
+        if (IsHavePatron == true)
+        {
+            StartCoroutine(IfCatchedPatron());
         }
         Death();
     }
@@ -63,6 +69,23 @@ public class Enemy : MonoBehaviour
 
         _isChasingPlayer = false; 
         StartCoroutine(Patrol());  
+    }
+
+    private IEnumerator IfCatchedPatron()
+    {
+        while(true)
+        {
+            _agent.speed = _chaseSpeed;
+            _agent.SetDestination(_targetPlayer.transform.position);
+
+            while (_agent.pathPending || _agent.remainingDistance > _minimumDistanceToStop)
+            {
+                yield return null;
+            }
+
+            yield return null;
+        }
+
     }
 
     private IEnumerator Patrol()
